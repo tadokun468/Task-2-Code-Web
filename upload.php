@@ -1,12 +1,12 @@
 <?php  
     require 'components/header.php';
 
-    // Kiểm tra xem người dùng đã nhấn nút "Submit" trên biểu mẫu
+    // Kiểm tra xem người dùng đã nhấn nút "Submit" trên form
     if(isset($_POST['submit'])){
         // Mảng chứa các phần mở rộng file hợp lệ
         $permitted_extentions = ['png', 'jpg', 'jpeg', 'gif'];
         
-        // Lấy tên tệp từ biểu mẫu
+        // Lấy tên tệp từ form
         $file_name = $_FILES['upload']['name'];
 
         // Kiểm tra xem người dùng đã chọn một tệp ảnh hay chưa
