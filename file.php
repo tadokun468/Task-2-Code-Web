@@ -7,7 +7,7 @@
 <body>
     <form method="post" enctype="multipart/form-data">
         <!-- Form cho việc tải lên file -->
-        <input type="file" name="fileToUpload"> <!-- Input cho việc chọn tệp tin -->
+        <input type="file" name="fileToUpload"> <!-- Input cho việc chọn file -->
         <input type="submit" name="upload" value="Upload and Read"> <!-- Nút tải lên -->
     </form>
 
