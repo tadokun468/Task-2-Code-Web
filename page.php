@@ -17,7 +17,7 @@ else if(isset($_POST['register'])){
 
 <h1 class="text-center p-3" >Đây là Task2 - Code Web</h1> <br>
 
-<!-- Biểu mẫu HTML cho việc chọn "Đăng ký" hoặc "Đăng nhập" -->
+<!-- Form HTML cho việc chọn "Đăng ký" hoặc "Đăng nhập" -->
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
     <div class="text-center p-3">
         <input type="submit" name="register" value="Đăng kí" class="btn btn-primary">
