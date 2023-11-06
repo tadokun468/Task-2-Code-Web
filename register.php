@@ -7,7 +7,7 @@ $message;
 
 // Kiểm tra xem biểu mẫu đăng ký đã được gửi đi
 if (isset($_POST['register'])) {
-    // Lấy giá trị tên đăng nhập, mật khẩu, và mật khẩu nhập lại từ biểu mẫu
+    // Lấy giá trị tên đăng nhập, mật khẩu, và mật khẩu nhập lại từ form
     $username = $_POST['username'];
     $password = $_POST['password'];
     $password_repeat = $_POST['password_repeat'];
