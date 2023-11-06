@@ -59,7 +59,7 @@
 <body>
     <h1>Đăng nhập thành công !! <br> Thêm ảnh vào trang cá nhân</h1>
 
-    <!-- Biểu mẫu để người dùng chọn và tải lên tệp ảnh -->
+    <!-- Form để người dùng chọn và tải lên tệp ảnh -->
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
         Mời bạn chọn ảnh
         <input type="file" name="upload"> <br>
