@@ -3,7 +3,7 @@
 // Đây là một đoạn mã PHP sử dụng PDO (PHP Data Object) để kết nối đến cơ sở dữ liệu MySQL.
 
 // Định nghĩa các hằng số cho thông tin kết nối đến cơ sở dữ liệu
-define('DATABASE_SERVER', '192.168.64.1');
+define('DATABASE_SERVER', 'localhost');
 define('DATABASE_USER', 'root');
 define('DATABASE_PASSWORD', '468321');
 define('DATABASE_NAME', 'phpapp');
